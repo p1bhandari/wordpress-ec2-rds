@@ -4,7 +4,7 @@ data "aws_vpc" "selected" {
     values = ["vpc-mumbai"]
   }
 }
-data "aws_security_group" "sg" {
+data "aws_security_group" "sg1" {
   filter {
     name   = "group-name"
     values = ["mum-pub-sec1"]
