@@ -9,4 +9,4 @@ Terraform module which creates EC2 wordpress instance using RDS  on AWS.
 
 ##Terraform versions
 
-*Terraform 0.12
+*Terraform 0.12 and 0.11
